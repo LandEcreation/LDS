@@ -188,6 +188,8 @@ margin-left:2%;
 .topnav {
   overflow: hidden;
   background-color: #333;
+  positon: sticky;
+  top: 0px;
 }
 
 .topnav a {
