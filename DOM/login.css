@@ -1,0 +1,106 @@
+
+input[type=button]{
+width: 30%;
+margin-left: 35%;
+margin-right: 50%;
+background-color: #0048BA;
+color: white;
+border-radius: 12px;
+padding: 1%;
+}
+h1{
+text-align: center;
+text-decoration: inherit;
+font-kerning: normal;
+font-weight: bold;
+font-family:  fantasy;
+}
+
+input[type=button]:hover {
+
+color: white;
+background-color: orange;
+font-size:20px;
+font-weight: bold;
+}
+
+ #reg{
+background-color: red;
+}
+
+#reg:hover{
+
+  color: blue;
+  background-color: white;
+  font-size:20px;
+font-weight: bold;
+}
+
+
+
+.nav{
+margin-left:2%;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+position: sticky;
+top: 0px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 3px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: lightblue;
+  color: blue;
+padding: 1%;
+}
+
+.topnav a.active {
+    color: white;
+
+}
+
+.topnav .icon {
+  display: none;
+}
+li.login {
+display:block;
+}
+.login {
+float:right;
+margin-top: -0.8%;
+margin-left: 50%;
+background-color: red;
+
+}
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float:right;
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float:  left;
+    display: block;
+    text-align:  center;
+align-items: center;
+  }
